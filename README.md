@@ -2,6 +2,7 @@
 
 Project structure:
 - Menu;
+*haha;
 - Address book;
 - SMS;
 - Organaizer;
