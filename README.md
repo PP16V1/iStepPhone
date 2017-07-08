@@ -1,7 +1,13 @@
 # iStepPhone
 
 Project structure:
-- Menu;
+- Menu:
+    data;
+	brightness;
+	battery;
+	user.ini;
+	menu.config;
+	logging;
 - Address book;
 - SMS;
 - Organaizer;
