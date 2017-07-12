@@ -9,8 +9,8 @@ Project structure:
 	menu.config;
 	logging;
 - Address book;
-- SMS;
-- Organaizer;
+- SMS - Kirill Maneychik;
+- Organaizer - Kirill Maneychik;
 - Playmarket;
 - XO;
 - Snake;
