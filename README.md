@@ -7,7 +7,7 @@ Project structure:
 	battery;
 	user.ini;
 	menu.config;
-	logging;
+	logging;   - Olha Medenets
 - Address book;
 - SMS - Kirill Maneychik;
 - Organaizer - Kirill Maneychik;
