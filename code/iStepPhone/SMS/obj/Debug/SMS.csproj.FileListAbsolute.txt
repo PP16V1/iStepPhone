@@ -1,0 +1,5 @@
+D:\Users\301-07\Documents\iStepPhone\code\iStepPhone\SMS\bin\Debug\SMS.dll
+D:\Users\301-07\Documents\iStepPhone\code\iStepPhone\SMS\bin\Debug\SMS.pdb
+D:\Users\301-07\Documents\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+D:\Users\301-07\Documents\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.dll
+D:\Users\301-07\Documents\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.pdb

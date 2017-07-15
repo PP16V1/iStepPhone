@@ -1,0 +1,8 @@
+D:\Users\301-07\Documents\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.exe.config
+D:\Users\301-07\Documents\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.exe
+D:\Users\301-07\Documents\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.pdb
+D:\Users\301-07\Documents\iStepPhone\code\iStepPhone\Menu\bin\Debug\SMS.dll
+D:\Users\301-07\Documents\iStepPhone\code\iStepPhone\Menu\bin\Debug\SMS.pdb
+D:\Users\301-07\Documents\iStepPhone\code\iStepPhone\Menu\obj\Debug\iStepPhone.Menu.csprojResolveAssemblyReference.cache
+D:\Users\301-07\Documents\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.exe
+D:\Users\301-07\Documents\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.pdb

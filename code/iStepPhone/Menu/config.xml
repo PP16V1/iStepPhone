@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<menu>
+  <menuItem>
+    <name>SMS</name>
+    <assemblyName>ClassLibrary1</assemblyName>
+    <typeName>ClassLibrary1.SMS</typeName>
+    <methodToCall>Start</methodToCall>
+  </menuItem>
+  <menuItem>
+    <name>AddressBook</name>
+    <assemblyName>ClassLibrary1</assemblyName>
+    <typeName>ClassLibrary1.SMS</typeName>
+    <methodToCall>Start</methodToCall>
+  </menuItem>
+</menu>
