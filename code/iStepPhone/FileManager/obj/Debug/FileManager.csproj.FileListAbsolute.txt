@@ -1,0 +1,5 @@
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\FileManager\obj\Debug\FileManager.csprojResolveAssemblyReference.cache
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\FileManager\bin\Debug\FileManager.dll
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\FileManager\bin\Debug\FileManager.pdb
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\FileManager\obj\Debug\FileManager.dll
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\FileManager\obj\Debug\FileManager.pdb
