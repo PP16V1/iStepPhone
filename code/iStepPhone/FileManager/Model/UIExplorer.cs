@@ -83,9 +83,19 @@ namespace iStepPhone.FileManager.Model
             if (cLevel == currItem.Count - 1)
             {
                 if (currItem[cLevel] + 1 < Items.Count)
-                    currItem[cLevel] = currItem[cLevel] + 1;
+                {
+                    if (Items[currItem[cLevel]].IsActive && Items[currItem[cLevel]].Children.Count > 0)
+                        currItem.Add(0);
+                    else
+                        currItem[cLevel] = currItem[cLevel] + 1;
+                }
                 else
-                    if (cLevel != 0) currItem.RemoveAt(cLevel);
+                {
+                    if (Items[currItem[cLevel]].IsActive && Items[currItem[cLevel]].Children.Count > 0)
+                        currItem.Add(0);
+                    else                    
+                        if (cLevel != 0) currItem.RemoveAt(cLevel);
+                }
             }
             else
             {
@@ -93,7 +103,9 @@ namespace iStepPhone.FileManager.Model
                 if (cLevel == currItem.Count - 1)
                 {
                     if (currItem[cLevel] + 1 < Items.Count)
-                        currItem[cLevel] = currItem[cLevel] + 1;
+                    {
+                            currItem[cLevel] = currItem[cLevel] + 1;
+                    }
                     else
                         if (cLevel != 0) currItem.RemoveAt(cLevel);
                 }
@@ -119,7 +131,7 @@ namespace iStepPhone.FileManager.Model
         private void DisplayFunctionKey()
         {
             DontHighLightRow();
-            Console.WriteLine("\nF1-Help\t\tF5-Copy\t\tF6-Move\nF7-Create Dir\tF8-Delete");
+            Console.WriteLine("\nF1-Help\t\tF5-Copy\t\tF6-Move\nF7-Create Dir\tF8-Delete\tF10-Exit");
         }
 
 
@@ -143,6 +155,10 @@ namespace iStepPhone.FileManager.Model
                 else if (key.Key == ConsoleKey.Enter)
                 {
                     DoAction(Items);
+                }
+                else if (key.Key == ConsoleKey.F10)
+                {
+                    break;
                 }
                 Console.Clear();
             } while (true);
