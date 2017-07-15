@@ -6,3 +6,13 @@ C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\SMS.pd
 C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.exe
 C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.pdb
+D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.exe.config
+D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.exe
+D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.pdb
+D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.exe
+D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.pdb
+D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\SMS.dll
+D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\SMS.pdb
+D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.csprojResolveAssemblyReference.cache
+D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\Nemiro.OAuth.dll
+D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\Nemiro.OAuth.xml
