@@ -1,0 +1,8 @@
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\FileManagerTester\bin\Debug\FileManagerTester.exe.config
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\FileManagerTester\bin\Debug\FileManagerTester.exe
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\FileManagerTester\bin\Debug\FileManagerTester.pdb
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\FileManagerTester\bin\Debug\FileManager.dll
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\FileManagerTester\bin\Debug\FileManager.pdb
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\FileManagerTester\obj\Debug\FileManagerTester.csprojResolveAssemblyReference.cache
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\FileManagerTester\obj\Debug\FileManagerTester.exe
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\FileManagerTester\obj\Debug\FileManagerTester.pdb

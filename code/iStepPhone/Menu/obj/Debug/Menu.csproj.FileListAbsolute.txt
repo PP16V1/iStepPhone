@@ -16,3 +16,13 @@ D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\SMS.p
 D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.csprojResolveAssemblyReference.cache
 D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\Nemiro.OAuth.dll
 D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\Nemiro.OAuth.xml
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.exe.config
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.exe
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.pdb
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.exe
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.pdb
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\Menu\bin\Debug\Nemiro.OAuth.dll
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\Menu\bin\Debug\SMS.dll
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\Menu\bin\Debug\SMS.pdb
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\Menu\bin\Debug\Nemiro.OAuth.xml
+D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.csprojResolveAssemblyReference.cache

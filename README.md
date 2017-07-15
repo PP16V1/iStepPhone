@@ -14,5 +14,5 @@ Project structure:
 - Playmarket;
 - XO;
 - Snake;
-- FileManager;
+- FileManager - Ievgen Suturin;
 - Backup, programs control center;
