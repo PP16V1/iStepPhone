@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Nemiro.OAuth, Version=1.12.452.2615, Culture=neutral, PublicKeyToken=cb06320e362d440b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nemiro.OAuth.1.12\lib\net452\Nemiro.OAuth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,6 +48,9 @@
     <Compile Include="SMS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recipient.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
