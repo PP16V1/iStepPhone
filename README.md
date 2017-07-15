@@ -8,7 +8,7 @@ Project structure:
 	user.ini;
 	menu.config;
 	logging;   - Olha Medenets
-- Address book;
+- Address book - Shemet Viktoriya;
 - SMS - Kirill Maneychik;
 - Organaizer - Kirill Maneychik;
 - Playmarket;
