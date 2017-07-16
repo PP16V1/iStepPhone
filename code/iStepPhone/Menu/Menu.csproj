@@ -55,6 +55,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Abstractions\Abstractions.csproj">
+      <Project>{f14964cd-3422-41c6-9942-465b8b134cac}</Project>
+      <Name>Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\iStepPhone.PlayMarket\iStepPhone.PlayMarket.csproj">
+      <Project>{f56efa4e-3821-4865-8bc3-17541eabd353}</Project>
+      <Name>iStepPhone.PlayMarket</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SMS\SMS.csproj">
       <Project>{D4385027-44F6-42D3-8DDE-0FA06107EE5C}</Project>
       <Name>SMS</Name>

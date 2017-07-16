@@ -11,8 +11,8 @@ Project structure:
 - Address book;
 - SMS - Kirill Maneychik;
 - Organaizer - Kirill Maneychik;
-- Playmarket;
-- XO;
-- Snake;
+- Playmarket - Lisitsa Alexandr;
+- XO - Lisitsa Alexandr;
+- Snake - Lisitsa Alexandr;
 - FileManager;
 - Backup, programs control center;

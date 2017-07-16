@@ -1,0 +1,4 @@
+<Applications>
+	<Game title="Snake" id="0" installed="false" assemblyFile="" typeName="">./MarketResources/Snake.im</Game>
+	<Game title="XO" id="1" installed="false" assemblyFile="" typeName="">./MarketResources/XO.im</Game>
+</Applications>

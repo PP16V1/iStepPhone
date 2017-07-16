@@ -16,3 +16,17 @@ D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\SMS.p
 D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.csprojResolveAssemblyReference.cache
 D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\Nemiro.OAuth.dll
 D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\Nemiro.OAuth.xml
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.exe.config
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.exe
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.pdb
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.exe
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.pdb
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\Nemiro.OAuth.dll
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\SMS.dll
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\SMS.pdb
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\Nemiro.OAuth.xml
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.csprojResolveAssemblyReference.cache
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\Abstractions.dll
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\Abstractions.pdb
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\iStepPhone.PlayMarket.dll
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\iStepPhone.PlayMarket.pdb

@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Menu\Menu.csproj", "{27ACE7D1-1FD2-4C07-A61A-C2E1FC791C51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS", "SMS\SMS.csproj", "{D4385027-44F6-42D3-8DDE-0FA06107EE5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstractions", "Abstractions\Abstractions.csproj", "{F14964CD-3422-41C6-9942-465B8B134CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iStepPhone.PlayMarket", "iStepPhone.PlayMarket\iStepPhone.PlayMarket.csproj", "{F56EFA4E-3821-4865-8BC3-17541EABD353}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{D4385027-44F6-42D3-8DDE-0FA06107EE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4385027-44F6-42D3-8DDE-0FA06107EE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4385027-44F6-42D3-8DDE-0FA06107EE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14964CD-3422-41C6-9942-465B8B134CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14964CD-3422-41C6-9942-465B8B134CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14964CD-3422-41C6-9942-465B8B134CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14964CD-3422-41C6-9942-465B8B134CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56EFA4E-3821-4865-8BC3-17541EABD353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56EFA4E-3821-4865-8BC3-17541EABD353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56EFA4E-3821-4865-8BC3-17541EABD353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56EFA4E-3821-4865-8BC3-17541EABD353}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

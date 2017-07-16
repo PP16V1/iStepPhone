@@ -5,3 +5,10 @@ D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.dl
 D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.pdb
 D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\SMS\bin\Debug\Nemiro.OAuth.dll
 D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\SMS\bin\Debug\Nemiro.OAuth.xml
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\SMS\bin\Debug\SMS.dll
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\SMS\bin\Debug\SMS.pdb
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\SMS\bin\Debug\Nemiro.OAuth.dll
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\SMS\bin\Debug\Nemiro.OAuth.xml
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.dll
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.pdb
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
