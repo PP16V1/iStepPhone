@@ -40,12 +40,14 @@ namespace iStepPhone.FileManager.Model
             return false;
         }
 
-        private void ShowMenueLevel(List<UserDirectoryClass> Items, List<UserDirectoryClass> Root, int cLevel)
+        private UserDirectoryClass ShowExplorerLevel(List<UserDirectoryClass> Items, List<UserDirectoryClass> Root, int cLevel)
         {
+            UserDirectoryClass result = null;
             for (int i = 0; i < Items.Count; i++)
             {
                 if (IsCursorThere(Root, Items[i]))
                 {
+                    result = Items[i];
                     HighLightRow();
                 }
                 else
@@ -57,12 +59,14 @@ namespace iStepPhone.FileManager.Model
                 Console.WriteLine(Items[i]);
                 if (Items[i].IsActive)
                 {
-                    ShowMenueLevel(Items[i].Children, Root, cLevel + 1);
+                    UserDirectoryClass tmp = ShowExplorerLevel(Items[i].Children, Root, cLevel + 1);
+                    if (tmp != null) result = tmp; 
                 }
             }
+            return result;
         }
 
-        private void DoAction(List<UserDirectoryClass> Items)
+        private void DoActionForSelect(List<UserDirectoryClass> Items)
         {
             List<UserDirectoryClass> userItems = Items;
             int num;
@@ -131,17 +135,23 @@ namespace iStepPhone.FileManager.Model
         private void DisplayFunctionKey()
         {
             DontHighLightRow();
-            Console.WriteLine("\nF1-Help\t\tF5-Copy\t\tF6-Move\nF7-Create Dir\tF8-Delete\tF10-Exit");
+            Console.WriteLine("\nF1-Help\t\tF3- View File\tF5-Copy\t\tF6-Move\nF7-Create Dir\tF8-Delete\tF10-Exit");
         }
 
+        private void DisplayImplementationFunctionKey()
+        {
+            DontHighLightRow();
+            Console.WriteLine("Enter- Select Item\t\tF10-Exit");
+        }
 
         public override void ShowExplorer(List<UserDirectoryClass> Items)
         {
             currItem.Add(0);
+            UserDirectoryClass selectedItem = null;
             int cLevel = 0;
             do
             {
-                ShowMenueLevel(Items, Items, cLevel);
+                selectedItem = ShowExplorerLevel(Items, Items, cLevel);
                 DisplayFunctionKey();
                 var key = Console.ReadKey();
                 if (key.Key == ConsoleKey.DownArrow)
@@ -154,7 +164,22 @@ namespace iStepPhone.FileManager.Model
                 }
                 else if (key.Key == ConsoleKey.Enter)
                 {
-                    DoAction(Items);
+                    DoActionForSelect(Items);
+                }
+                else if (key.Key == ConsoleKey.F3)
+                {
+                    if (selectedItem != null)
+                        new UIFileViewer(selectedItem).View();
+                }
+                else if (key.Key == ConsoleKey.F5)
+                {
+                    if (selectedItem != null)
+                        new UICopier(this, Items, selectedItem).Copy();
+                }
+                else if (key.Key == ConsoleKey.F7)
+                {
+                    if (selectedItem != null)
+                        new UIDirectoryCreator(selectedItem, currItem).CreateDirectory();
                 }
                 else if (key.Key == ConsoleKey.F10)
                 {
@@ -162,6 +187,44 @@ namespace iStepPhone.FileManager.Model
                 }
                 Console.Clear();
             } while (true);
+        }
+
+
+        private void DoActionForImplement(UserDirectoryClass selected, IExecuteble action)
+        {
+            action.Execute(selected);
+        }
+
+        public void ShowExplorerForImplementation(List<UserDirectoryClass> Items, IExecuteble action, string message)
+        {
+            UserDirectoryClass selectedItem = null;
+            int cLevel = 0;
+            do
+            {
+                Console.WriteLine(message);
+                selectedItem = ShowExplorerLevel(Items, Items, cLevel);
+                DisplayImplementationFunctionKey();
+                var key = Console.ReadKey();
+                if (key.Key == ConsoleKey.DownArrow)
+                {
+                    AddCursorPosition(Items, cLevel);
+                }
+                else if (key.Key == ConsoleKey.UpArrow)
+                {
+                    DecCursorPosition(Items, cLevel);
+                }
+                else if (key.Key == ConsoleKey.Enter)
+                {
+                    DoActionForImplement(selectedItem, action);
+                    break;
+                }
+                else if (key.Key == ConsoleKey.F10)
+                {
+                    break;
+                }
+                Console.Clear();
+            } while (true);
+
         }
     }
 }

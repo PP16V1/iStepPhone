@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -40,10 +41,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\AUIExplorer.cs" />
+    <Compile Include="Abstract\IExecuteble.cs" />
     <Compile Include="Factory\CreateObject.cs" />
     <Compile Include="Factory\UIExplorerCreator.cs" />
     <Compile Include="FileManager.cs" />
+    <Compile Include="Model\UICopier.cs" />
+    <Compile Include="Model\UIDirectoryCreator.cs" />
     <Compile Include="Model\UIExplorer.cs" />
+    <Compile Include="Model\UIFileViewer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
