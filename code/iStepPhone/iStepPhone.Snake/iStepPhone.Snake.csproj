@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F56EFA4E-3821-4865-8BC3-17541EABD353}</ProjectGuid>
+    <ProjectGuid>{65E9FB7A-11A5-4399-A2EC-46FA1C757705}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>iStepPhone.PlayMarket</RootNamespace>
-    <AssemblyName>iStepPhone.PlayMarket</AssemblyName>
+    <RootNamespace>iStepPhone.Snake</RootNamespace>
+    <AssemblyName>iStepPhone.Snake</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,18 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PlayMarket.cs" />
+    <Compile Include="Eat.cs" />
+    <Compile Include="Field.cs" />
+    <Compile Include="Head.cs" />
+    <Compile Include="Score.cs" />
+    <Compile Include="Snake.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Abstractions\Abstractions.csproj">
-      <Project>{f14964cd-3422-41c6-9942-465b8b134cac}</Project>
-      <Name>Abstractions</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\iStepPhone.Snake\iStepPhone.Snake.csproj">
-      <Project>{65e9fb7a-11a5-4399-a2ec-46fa1c757705}</Project>
-      <Name>iStepPhone.Snake</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -18,6 +18,7 @@ namespace iStepPhone.PlayMarket
 
         public override void startApplication()
         {
+            Console.CursorVisible = false;
             Console.Title = "PlayMarket";
             parseXML();
             startSelection();
@@ -61,13 +62,11 @@ namespace iStepPhone.PlayMarket
                     gameMenu(index);
                 }
             } while (key != ConsoleKey.Escape);
-            doc.Save("/packages/MarketResources/Applications.xml");
+            doc.Save("./MarketResources/Applications.xml");
         }
 
         private void gameMenu(int index)
         {
-            ConsoleKey key;
-            bool choiceMenu = true;
             do
             {
                 if (root.ChildNodes[index].Attributes[2].Value == "false")
@@ -77,7 +76,6 @@ namespace iStepPhone.PlayMarket
                     if (key == ConsoleKey.Y)
                     {
                         root.ChildNodes[index].Attributes[2].Value = "true";
-                        choiceMenu = false;
                         showLoadProgress("installed");
                     }
                     else if (key == ConsoleKey.N)
@@ -96,7 +94,10 @@ namespace iStepPhone.PlayMarket
                     key = Console.ReadKey().Key;
                     if (key == ConsoleKey.D1)
                     {
-                        Console.WriteLine("In Progress");
+                        Console.Clear();
+                       Activator.CreateInstance(root.ChildNodes[index].Attributes[3].Value,
+                                                 root.ChildNodes[index].Attributes[4].Value).Unwrap();
+                        key = ConsoleKey.Escape;
                     }
                     else if (key == ConsoleKey.D2)
                     {
@@ -108,7 +109,7 @@ namespace iStepPhone.PlayMarket
                         break;
                     }
                 }
-            } while (choiceMenu);
+            } while (key!=ConsoleKey.Escape);
         }
 
         private void showLoadProgress(string message)

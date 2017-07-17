@@ -5,3 +5,5 @@ C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.PlayMarket\bin\Debu
 C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.PlayMarket\obj\Debug\iStepPhone.PlayMarket.csprojResolveAssemblyReference.cache
 C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.PlayMarket\obj\Debug\iStepPhone.PlayMarket.dll
 C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.PlayMarket\obj\Debug\iStepPhone.PlayMarket.pdb
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.PlayMarket\bin\Debug\iStepPhone.Snake.dll
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.PlayMarket\bin\Debug\iStepPhone.Snake.pdb

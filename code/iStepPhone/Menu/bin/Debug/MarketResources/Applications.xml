@@ -1,4 +1,4 @@
 <Applications>
-	<Game title="Snake" id="0" installed="false" assemblyFile="" typeName="">./MarketResources/Snake.im</Game>
-	<Game title="XO" id="1" installed="false" assemblyFile="" typeName="">./MarketResources/XO.im</Game>
+  <Game title="Snake" id="0" installed="true" assemblyFile="iStepPhone.Snake" typeName="iStepPhone.Snake.Snake">./MarketResources/Snake.im</Game>
+  <Game title="XO" id="1" installed="false" assemblyFile="" typeName="">./MarketResources/XO.im</Game>
 </Applications>

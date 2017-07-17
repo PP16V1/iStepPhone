@@ -63,6 +63,10 @@
       <Project>{f56efa4e-3821-4865-8bc3-17541eabd353}</Project>
       <Name>iStepPhone.PlayMarket</Name>
     </ProjectReference>
+    <ProjectReference Include="..\iStepPhone.Snake\iStepPhone.Snake.csproj">
+      <Project>{65e9fb7a-11a5-4399-a2ec-46fa1c757705}</Project>
+      <Name>iStepPhone.Snake</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SMS\SMS.csproj">
       <Project>{D4385027-44F6-42D3-8DDE-0FA06107EE5C}</Project>
       <Name>SMS</Name>
