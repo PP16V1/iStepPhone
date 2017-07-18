@@ -18,6 +18,8 @@ namespace iStepPhone.PlayMarket
 
         public override void startApplication()
         {
+           // Console.SetWindowSize(31, 27);
+            //Console.SetBufferSize(31, 27);         
             Console.CursorVisible = false;
             Console.Title = "PlayMarket";
             parseXML();
@@ -71,7 +73,7 @@ namespace iStepPhone.PlayMarket
             {
                 if (root.ChildNodes[index].Attributes[2].Value == "false")
                 {
-                    Console.WriteLine(root.ChildNodes[index].Attributes[0].Value + " isnt installed,install it? Y/N");
+                    Console.WriteLine(root.ChildNodes[index].Attributes[0].Value + " isnt installed\nInstall this? Y/N");
                     key = Console.ReadKey().Key;
                     if (key == ConsoleKey.Y)
                     {

@@ -19,8 +19,8 @@ namespace iStepPhone.Snake
         }
         public void createEat()
         {
-            eat_position.X = rand.Next(1, 19);
-            eat_position.Y = rand.Next(1, 19);
+            eat_position.X = rand.Next(2, 19);
+            eat_position.Y = rand.Next(2, 19);
             Console.SetCursorPosition(eat_position.X, eat_position.Y);
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.Write(EatIMG);

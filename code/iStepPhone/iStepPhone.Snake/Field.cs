@@ -9,6 +9,7 @@ namespace iStepPhone.Snake
     class Field
     {
         public Head Head { get; set; } = new Head();
+        public List<Tail> Tail { get; set; } = new List<Tail>();
         public Field()
         {
             initField();
