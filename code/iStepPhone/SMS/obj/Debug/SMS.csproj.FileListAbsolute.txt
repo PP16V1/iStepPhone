@@ -12,3 +12,10 @@ D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\SMS\bin\Debug\Nem
 D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
 D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.dll
 D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.pdb
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\SMS\bin\Debug\SMS.dll
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\SMS\bin\Debug\SMS.pdb
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\SMS\bin\Debug\Nemiro.OAuth.dll
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\SMS\bin\Debug\Nemiro.OAuth.xml
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.dll
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.pdb

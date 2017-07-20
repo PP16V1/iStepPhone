@@ -26,3 +26,5 @@ D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\Menu\bin\Debug\SM
 D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\Menu\bin\Debug\SMS.pdb
 D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\Menu\bin\Debug\Nemiro.OAuth.xml
 D:\ДЗ\C#\Source Files\ExamProject\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\Nemiro.OAuth.dll
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\Nemiro.OAuth.xml

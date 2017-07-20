@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\SMSTester\bin\Debug\SMSTester.exe.config
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\SMSTester\bin\Debug\SMSTester.exe
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\SMSTester\bin\Debug\SMSTester.pdb
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\SMSTester\bin\Debug\SMS.dll
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\SMSTester\bin\Debug\SMS.pdb
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\SMSTester\obj\Debug\SMSTester.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\SMSTester\obj\Debug\SMSTester.exe
+C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\SMSTester\obj\Debug\SMSTester.pdb
