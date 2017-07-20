@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace iStepPhone.SMS.Factory
+namespace iStepPhone.Organise.Factory
 {
-    class CreateObject
+    public class CreateObject
     {
         public static object CreateInstance(string typeName, string AssemblyName)
         {
