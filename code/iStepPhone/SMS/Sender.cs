@@ -9,5 +9,6 @@
             Adress = adress;
             Password = password;
         }
+        public Sender() { }
     }
 }
