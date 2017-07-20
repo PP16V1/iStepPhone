@@ -32,3 +32,5 @@ C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\iStepPhone.Play
 C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\iStepPhone.PlayMarket.pdb
 C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\iStepPhone.Snake.dll
 C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\iStepPhone.Snake.pdb
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\iStepPhone.XO.dll
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\Menu\bin\Debug\iStepPhone.XO.pdb

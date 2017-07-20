@@ -1,0 +1,5 @@
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.XO\bin\Debug\iStepPhone.XO.dll
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.XO\bin\Debug\iStepPhone.XO.pdb
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.XO\obj\Debug\iStepPhone.XO.csprojResolveAssemblyReference.cache
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.XO\obj\Debug\iStepPhone.XO.dll
+C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.XO\obj\Debug\iStepPhone.XO.pdb
