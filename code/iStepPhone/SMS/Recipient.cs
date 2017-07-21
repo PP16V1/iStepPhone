@@ -7,5 +7,6 @@
         {
             Adress = adress;
         }
+        public Recipient() { }
     }
 }
