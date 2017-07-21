@@ -47,18 +47,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Loading\UserSettings.cs" />
+    <Compile Include="MenuComponents\ProgressBar.cs" />
+    <Compile Include="MenuComponents\Header.cs" />
+    <Compile Include="ShowMenu.cs" />
+    <Compile Include="Tools\Deserializator.cs" />
+    <Compile Include="Tools\Factory.cs" />
+    <Compile Include="Loading\ItemMenu.cs" />
+    <Compile Include="MenuComponents\Menu.cs" />
+    <Compile Include="MenuComponents\MenuRender.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MenuComponents\Settings.cs" />
+    <Compile Include="Loading\CurrentColor.cs" />
+    <Compile Include="Tools\Serializator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SMS\SMS.csproj">
-      <Project>{D4385027-44F6-42D3-8DDE-0FA06107EE5C}</Project>
-      <Name>SMS</Name>
-    </ProjectReference>
+    <Content Include="cmn\config.xml" />
+    <Content Include="cmn\UserSettings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="LoginPage\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
