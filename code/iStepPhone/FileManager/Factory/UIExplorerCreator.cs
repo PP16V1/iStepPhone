@@ -26,10 +26,23 @@ namespace iStepPhone.FileManager.Factory
 
     class UIExplorerCreator
     {
+        public static string NameBasket = "_BASKET";
+        private string Root;
+        public UIExplorerCreator(string root)
+        {
+            Root = root;
+        }
         public List<UserDirectoryClass> MakingDirrectoryTree(string root)
         {
             DirectoryInfo dir = new DirectoryInfo(root);
+            if (root == Root)
+            {
+                if (Directory.Exists(Path.Combine(Root + "\\", NameBasket)))
+                    Directory.CreateDirectory(Path.Combine(Root + "\\", NameBasket));
+            }
+
             List<UserDirectoryClass> list = new List<UserDirectoryClass>();
+
             foreach (var item in dir.GetDirectories())
             {
                 UserDirectoryClass userDir = new UserDirectoryClass();

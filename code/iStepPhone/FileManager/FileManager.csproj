@@ -49,6 +49,7 @@
     <Compile Include="Model\UIDirectoryCreator.cs" />
     <Compile Include="Model\UIExplorer.cs" />
     <Compile Include="Model\UIFileViewer.cs" />
+    <Compile Include="Model\UIMover.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
