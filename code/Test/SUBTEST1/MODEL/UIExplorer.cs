@@ -10,7 +10,7 @@ namespace iStepPhone.FileManager.Model
 {
     public class UIExplorer : AUIExplorer
     {
-        private List<int> currItem;  
+        private List<int> currItem;
 
         public UIExplorer()
         {
@@ -145,7 +145,7 @@ namespace iStepPhone.FileManager.Model
         private void DisplayImplementationFunctionKey()
         {
             DontHighLightRow();
-            Console.WriteLine("\nPlease, press\nF8- Select Item\t\tF10-Exit");
+            Console.WriteLine("Enter- Select Item\t\tF10-Exit");
         }
 
         public override void ShowExplorer(List<UserDirectoryClass> Items)
@@ -185,17 +185,7 @@ namespace iStepPhone.FileManager.Model
                     if (selectedItem != null)
                     {
                         int clevel;
-                        new UIMover(UIMover.Kind.MOVE, this, Items, selectedItem, getCurrParentItems(Items, out clevel)).Move();
-                    }
-                }
-                else if (key.Key == ConsoleKey.F8)
-                {
-                    int index = Items.FindIndex(x => x.Name == UIExplorerCreator.NameBasket);
-                    if(index>=0)
-                    {
-                        int clevel;
-                        new UIMover(UIMover.Kind.DELETE, this, Items, selectedItem, getCurrParentItems(Items, out clevel)).Move();
-                        currItem.RemoveAt(currItem.Count - 1);
+                        new UIMover(this, Items, selectedItem, getCurrParentItems(Items, out clevel)).Move();
                     }
                 }
                 else if (key.Key == ConsoleKey.F7)
@@ -236,10 +226,6 @@ namespace iStepPhone.FileManager.Model
                     DecCursorPosition(Items, cLevel);
                 }
                 else if (key.Key == ConsoleKey.Enter)
-                {
-                    DoActionForSelect(Items);
-                }
-                else if (key.Key == ConsoleKey.F8)
                 {
                     DoActionForImplement(selectedItem, action);
                     break;

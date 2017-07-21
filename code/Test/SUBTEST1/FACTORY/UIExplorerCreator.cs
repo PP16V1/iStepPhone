@@ -7,7 +7,6 @@ using System.IO;
 
 namespace iStepPhone.FileManager.Factory
 {
-
     public class UserDirectoryClass
     {
         public bool IsActive { get; set; }
@@ -27,24 +26,8 @@ namespace iStepPhone.FileManager.Factory
 
     class UIExplorerCreator
     {
-        public static string NameBasket="_BASKET";
-    
-        private string rootItitial;
-
-        public UIExplorerCreator(string _root)
+        public List<UserDirectoryClass> MakingDirrectoryTree(string root)
         {
-            rootItitial = _root;
-        }
-
-        public List<UserDirectoryClass> MakingDirrectoryTree(string root=null)
-        {
-            if(root==null)
-            {
-                root = rootItitial;
-                if (!Directory.Exists(root + NameBasket))
-                    Directory.CreateDirectory(root + NameBasket);
-            }
-
             DirectoryInfo dir = new DirectoryInfo(root);
             List<UserDirectoryClass> list = new List<UserDirectoryClass>();
             foreach (var item in dir.GetDirectories())
