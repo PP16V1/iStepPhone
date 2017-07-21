@@ -1,5 +1,4 @@
 C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.Snake\bin\Debug\iStepPhone.Snake.dll
 C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.Snake\bin\Debug\iStepPhone.Snake.pdb
-C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.Snake\obj\Debug\iStepPhone.Snake.csprojResolveAssemblyReference.cache
 C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.Snake\obj\Debug\iStepPhone.Snake.dll
 C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\iStepPhone.Snake\obj\Debug\iStepPhone.Snake.pdb

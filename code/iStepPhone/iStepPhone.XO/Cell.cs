@@ -11,7 +11,6 @@ namespace iStepPhone.XO
     {
 
         public Point location = new Point();
-        public string sing = null;
-
+        public string sign = null;
     }
 }

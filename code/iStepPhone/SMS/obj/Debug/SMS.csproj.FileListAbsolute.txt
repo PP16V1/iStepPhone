@@ -11,4 +11,3 @@ C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\SMS\bin\Debug\Nemiro.OAuth.dll
 C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\SMS\bin\Debug\Nemiro.OAuth.xml
 C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.dll
 C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.pdb
-C:\Users\WyPik\Desktop\iStepPhone\code\iStepPhone\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
