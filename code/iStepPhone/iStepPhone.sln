@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Menu\Menu.csproj", "{27ACE7D1-1FD2-4C07-A61A-C2E1FC791C51}"
 EndProject
@@ -10,12 +10,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileManager", "FileManager\FileManager.csproj", "{66E17A8E-0E02-4D34-A11D-E5A69966C885}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileManagerTester", "FileManagerTester\FileManagerTester.csproj", "{F6F4735E-14AB-4C84-B8D5-04B8530DECC6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSTester", "SMSTester\SMSTester.csproj", "{EAF489B8-A4B7-4A1B-8D5E-77C9C6EA29D8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Organiser", "Organiser\Organiser.csproj", "{898927FA-B790-4B3A-B0DC-3A5AEBC35910}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganaiserTester", "OrganaiserTester\OrganaiserTester.csproj", "{7AAA229A-9EA6-4B1A-B336-BCE073276EB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,18 +33,6 @@ Global
 		{F6F4735E-14AB-4C84-B8D5-04B8530DECC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6F4735E-14AB-4C84-B8D5-04B8530DECC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6F4735E-14AB-4C84-B8D5-04B8530DECC6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EAF489B8-A4B7-4A1B-8D5E-77C9C6EA29D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EAF489B8-A4B7-4A1B-8D5E-77C9C6EA29D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EAF489B8-A4B7-4A1B-8D5E-77C9C6EA29D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EAF489B8-A4B7-4A1B-8D5E-77C9C6EA29D8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{898927FA-B790-4B3A-B0DC-3A5AEBC35910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{898927FA-B790-4B3A-B0DC-3A5AEBC35910}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{898927FA-B790-4B3A-B0DC-3A5AEBC35910}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{898927FA-B790-4B3A-B0DC-3A5AEBC35910}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7AAA229A-9EA6-4B1A-B336-BCE073276EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7AAA229A-9EA6-4B1A-B336-BCE073276EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7AAA229A-9EA6-4B1A-B336-BCE073276EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7AAA229A-9EA6-4B1A-B336-BCE073276EB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
