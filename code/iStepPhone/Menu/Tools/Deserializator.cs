@@ -17,7 +17,7 @@ namespace iStepPhone.Menu.Tools
             List<ItemMenu> listMenu = new List<ItemMenu>();
             try
             {
-                var xDoc = XDocument.Load(@"C:\iStepPhone\code\iStepPhone\Menu\cmn\config.xml");
+                var xDoc = XDocument.Load(@"../../cmn/config.xml");
                 listMenu = xDoc.Element("menu").Elements("menuItem").Select(x =>
                   new ItemMenu
                   {
@@ -41,7 +41,7 @@ namespace iStepPhone.Menu.Tools
             try
             {
                 List<UserSettings> settings = new List<UserSettings>();
-                var xDoc = XDocument.Load(@"C:\iStepPhone\code\iStepPhone\Menu\cmn\UserSettings.xml");
+                var xDoc = XDocument.Load("../../cmn/UserSettings.xml");
                 settings = xDoc.Element("userSettings").Elements("settings").Select(x =>
                   new UserSettings
                   {

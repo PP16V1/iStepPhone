@@ -15,7 +15,7 @@ namespace iStepPhone.Menu.MenuComponents
         public Menu()
         {
             menuItems = new List<string>();
-            path = @"C:\iStepPhone\code\iStepPhone\Menu\cmn\config.xml";
+            path = @"../../cmn/config.xml";
             Read();
             MakeIcons();
         }
