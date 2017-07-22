@@ -1,4 +1,5 @@
-﻿using iStepPhone.Menu.MenuComponents;
+﻿using iStepPhone.Menu.LoginPage;
+using iStepPhone.Menu.MenuComponents;
 using iStepPhone.Menu.Tools;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,8 @@ namespace iStepPhone.Menu
             ShowMenu show = new ShowMenu();
             show.Start();
 
+            LoginPg lgn = new LoginPg();
+            lgn.Registration();
         }
 
     }

@@ -49,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Loading\UserSettings.cs" />
+    <Compile Include="LoginPage\LoginPg.cs" />
+    <Compile Include="LoginPage\User.cs" />
     <Compile Include="MenuComponents\ProgressBar.cs" />
     <Compile Include="MenuComponents\Header.cs" />
     <Compile Include="ShowMenu.cs" />
@@ -71,9 +73,7 @@
     <Content Include="cmn\config.xml" />
     <Content Include="cmn\UserSettings.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="LoginPage\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

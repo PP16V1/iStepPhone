@@ -56,6 +56,7 @@ namespace iStepPhone.Menu.MenuComponents
             } while (numRow!=-1);
            
             Serializator.SerializSettings(SaveColor());
+
         }
 
 
