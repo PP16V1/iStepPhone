@@ -1,11 +1,3 @@
-C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.exe.config
-C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.exe
-C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.pdb
-C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\SMS.dll
-C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\SMS.pdb
-C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.csprojResolveAssemblyReference.cache
-C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.exe
-C:\Users\Admin\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.pdb
 D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\bin\Debug\Menu.exe.config
 D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.exe
 D:\Users\301-10\Documents\GitHub\iStepPhone\code\iStepPhone\Menu\obj\Debug\Menu.pdb

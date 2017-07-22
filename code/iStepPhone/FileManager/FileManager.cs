@@ -10,10 +10,17 @@ namespace iStepPhone.FileManager
 {
     public class FileManager
     {
-        public void Show(string root)
+        private string Root;
+
+        public FileManager(string root)
+        {
+            Root = root;
+        }
+
+        public void Show()
         {
             AUIExplorer uiExplorer = (CreateObject.CreateInstance("iStepPhone.FileManager.Model.UIExplorer", "FileManager") as AUIExplorer);
-            uiExplorer.ShowExplorer(new UIExplorerCreator().MakingDirrectoryTree(root));
+            uiExplorer.ShowExplorer(new UIExplorerCreator(Root).MakingDirrectoryTree());
         }
     }
 }

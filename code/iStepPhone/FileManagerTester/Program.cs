@@ -11,7 +11,7 @@ namespace FileManagerTester
     {
         static void Main(string[] args)
         {
-            new FileManager().Show(@"D:\ДЗ\C#\Source Files\ExamProject\iStepPhone");
+            new FileManager(@"D:\ДЗ\C#\Source Files\ExamProject\iStepPhone").Show();
         }
     }
 }

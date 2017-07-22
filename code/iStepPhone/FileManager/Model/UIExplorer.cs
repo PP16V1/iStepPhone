@@ -10,7 +10,7 @@ namespace iStepPhone.FileManager.Model
 {
     public class UIExplorer : AUIExplorer
     {
-        private List<int> currItem;
+        private List<int> currItem;  
 
         public UIExplorer()
         {
@@ -27,16 +27,23 @@ namespace iStepPhone.FileManager.Model
             Console.ForegroundColor = ConsoleColor.White;
         }
 
-        private bool IsCursorThere(List<UserDirectoryClass> Root, UserDirectoryClass cItem)
+        private List<UserDirectoryClass> getCurrParentItems(List<UserDirectoryClass> Root, out int clevel)
         {
             List<UserDirectoryClass> userItems = Root;
-            int num;
-            for (num = 0; num < currItem.Count - 1; num++)
+            for (clevel = 0; clevel < currItem.Count - 1; clevel++)
             {
-                userItems = userItems[currItem[num]].Children;
+                userItems = userItems[currItem[clevel]].Children;
             }
 
-            if (userItems[currItem[num]].Equals(cItem)) return true;
+            return userItems;
+        }
+
+        private bool IsCursorThere(List<UserDirectoryClass> Root, UserDirectoryClass cItem)
+        {
+            List<UserDirectoryClass> userItems;
+            int clevel;
+            userItems = getCurrParentItems(Root, out clevel);
+            if (userItems[currItem[clevel]].Equals(cItem)) return true;
             return false;
         }
 
@@ -68,16 +75,13 @@ namespace iStepPhone.FileManager.Model
 
         private void DoActionForSelect(List<UserDirectoryClass> Items)
         {
-            List<UserDirectoryClass> userItems = Items;
-            int num;
-            for (num = 0; num < currItem.Count - 1; num++)
+            List<UserDirectoryClass> userItems;
+            int clevel;
+            userItems = getCurrParentItems(Items, out clevel);
+            userItems[currItem[clevel]].IsActive = !userItems[currItem[clevel]].IsActive;
+            if (userItems[currItem[clevel]].IsActive)
             {
-                userItems = userItems[currItem[num]].Children;
-            }
-            userItems[currItem[num]].IsActive = !userItems[currItem[num]].IsActive;
-            if (userItems[currItem[num]].IsActive)
-            {
-                if (userItems[currItem[num]].Children.Count != 0)
+                if (userItems[currItem[clevel]].Children.Count != 0)
                     currItem.Add(0);
             }
         }
@@ -141,7 +145,7 @@ namespace iStepPhone.FileManager.Model
         private void DisplayImplementationFunctionKey()
         {
             DontHighLightRow();
-            Console.WriteLine("Enter- Select Item\t\tF10-Exit");
+            Console.WriteLine("\nPlease, press\nF8- Select Item\t\tF10-Exit");
         }
 
         public override void ShowExplorer(List<UserDirectoryClass> Items)
@@ -175,6 +179,24 @@ namespace iStepPhone.FileManager.Model
                 {
                     if (selectedItem != null)
                         new UICopier(this, Items, selectedItem).Copy();
+                }
+                else if (key.Key == ConsoleKey.F6)
+                {
+                    if (selectedItem != null)
+                    {
+                        int clevel;
+                        new UIMover(UIMover.Kind.MOVE, this, Items, selectedItem, getCurrParentItems(Items, out clevel)).Move();
+                    }
+                }
+                else if (key.Key == ConsoleKey.F8)
+                {
+                    int index = Items.FindIndex(x => x.Name == UIExplorerCreator.NameBasket);
+                    if(index>=0)
+                    {
+                        int clevel;
+                        new UIMover(UIMover.Kind.DELETE, this, Items, selectedItem, getCurrParentItems(Items, out clevel)).Move();
+                        currItem.RemoveAt(currItem.Count - 1);
+                    }
                 }
                 else if (key.Key == ConsoleKey.F7)
                 {
@@ -214,6 +236,10 @@ namespace iStepPhone.FileManager.Model
                     DecCursorPosition(Items, cLevel);
                 }
                 else if (key.Key == ConsoleKey.Enter)
+                {
+                    DoActionForSelect(Items);
+                }
+                else if (key.Key == ConsoleKey.F8)
                 {
                     DoActionForImplement(selectedItem, action);
                     break;

@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factory\CreateObject.cs" />
     <Compile Include="Sender.cs" />
     <Compile Include="SMS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
