@@ -15,6 +15,7 @@ namespace iStepPhone.XO
 
         public XO()
         {
+            Console.Title = "XO";
             Console.CursorVisible = true;
             loadField();
             initCells();
@@ -64,7 +65,7 @@ namespace iStepPhone.XO
                         if (checkWinner())
                         {
                             key = ConsoleKey.Escape;
-                            return;
+                            System.Threading.Thread.Sleep(2000);
                         }          
                         pcStep();
                     }
@@ -108,76 +109,102 @@ namespace iStepPhone.XO
 
         }
 
+        private void showWinner(string sign)
+        {
+            if (sign == "X")
+            {
+                Console.Clear();
+                string[] tmp = File.ReadAllLines("./MarketResources/games/XO/XWin.im");
+                Console.ForegroundColor = ConsoleColor.Green;
+                foreach (var item in tmp)
+                {          
+                    Console.WriteLine(item);
+                }
+                Console.ResetColor();
+            }else if(sign=="O")
+            {
+                Console.Clear();
+                string[] tmp = File.ReadAllLines("./MarketResources/games/XO/OWin.im");
+                Console.ForegroundColor = ConsoleColor.Green;
+                foreach (var item in tmp)
+                {
+                    Console.WriteLine(item);
+                }
+                Console.ResetColor();
+            }
+        }
+
         private bool checkWinner()
         {
             bool check = false;
             int power = 0;
             string sign;
-
+            //horisontal
+            for (int col = 0; col < 3; col++)
+            {
+                if (cell[col, 0].sign != null)
+                {
+                    sign = cell[col, 0].sign;
+                    for (int i = 1; i < 3; i++)
+                    {
+                        if (cell[col, i].sign == sign)
+                        {
+                            power++;
+                        }
+                    }
+                    if (power > 1)
+                    {
+                        check = true;
+                        showWinner(sign);
+                    }
+                    else
+                    {
+                        power = 0;
+                    }
+                }
+            }
+            //vertical
+            for (int row = 0; row < 3; row++)
+            {
+                if (cell[0, row].sign != null)
+                {
+                    sign = cell[0, row].sign;
+                    for (int i = 1; i < 3; i++)
+                    {
+                        if (cell[i, row].sign == sign)
+                        {
+                            power++;
+                        }
+                    }
+                    if (power > 1)
+                    {
+                        check = true;
+                        showWinner(sign);
+                    }
+                    else
+                    {
+                        power = 0;
+                    }
+                }
+            }
+            //diagonal
             if (cell[0, 0].sign != null)
             {
-                sign = cell[0, 0].sign;
-                for (int i = 1; i < 3; i++)
-                {
-                    if (cell[0, i].sign == sign)
-                    {
-                        power++;
-                    }
-                }
-                if (power > 1)
+                if (cell[0, 0].sign == cell[1, 1].sign && cell[0, 0].sign == cell[2, 2].sign)
                 {
                     check = true;
-                    Console.Clear();
-                    Console.WriteLine(sign+" winner");
-                }else
-                {
-                    power = 0;
+                    showWinner(cell[0, 0].sign);
                 }
             }
-
-            if (cell[1, 0].sign != null)
-            {
-                sign = cell[1, 0].sign;
-                for (int i = 1; i < 3; i++)
-                {
-                    if (cell[1, i].sign == sign)
-                    {
-                        power++;
-                    }
-                }
-                if (power > 1)
-                {
-                    check = true;
-                    Console.Clear();
-                    Console.WriteLine(sign + " winner");
-                }
-                else
-                {
-                    power = 0;
-                }
-            }
-
             if (cell[2, 0].sign != null)
             {
-                sign = cell[2, 0].sign;
-                for (int i = 1; i < 3; i++)
-                {
-                    if (cell[2, i].sign == sign)
-                    {
-                        power++;
-                    }
-                }
-                if (power > 1)
+                if (cell[2, 0].sign == cell[1, 1].sign && cell[2, 0].sign == cell[0, 2].sign)
                 {
                     check = true;
-                    Console.Clear();
-                    Console.WriteLine(sign + " winner");
-                }
-                else
-                {
-                    power = 0;
+                    showWinner(cell[2, 0].sign);
                 }
             }
+
             return check;
         }
 

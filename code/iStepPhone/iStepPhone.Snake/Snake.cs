@@ -92,6 +92,7 @@ namespace iStepPhone.Snake
                     up = false;
                     down = false;
                 }
+                Console.SetCursorPosition(0, 21);
                 waypiont.Add(field.Head.head_position);
                 tailMove();
                 isEat();

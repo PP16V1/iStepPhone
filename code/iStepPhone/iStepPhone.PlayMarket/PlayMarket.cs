@@ -44,6 +44,9 @@ namespace iStepPhone.PlayMarket
             {
                 Console.WriteLine(img);
             }
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Press Enter to select");
+            Console.ResetColor();
             do
             {
                 key = Console.ReadKey().Key;
@@ -99,7 +102,7 @@ namespace iStepPhone.PlayMarket
                         Console.Clear();
                        Activator.CreateInstance(root.ChildNodes[index].Attributes[3].Value,
                                                  root.ChildNodes[index].Attributes[4].Value).Unwrap();
-                        key = ConsoleKey.Escape;
+                        startSelection();
                     }
                     else if (key == ConsoleKey.D2)
                     {
@@ -135,6 +138,9 @@ namespace iStepPhone.PlayMarket
             {
                 Console.WriteLine(img);
             }
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Press Enter to select");
+            Console.ResetColor();
         }
     }
 }
